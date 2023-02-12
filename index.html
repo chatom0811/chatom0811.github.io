@@ -16,6 +16,10 @@
   <footer>
     <p>Copyright &copy; 2023</p>
   </footer>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript">
+    document.getElementById("myButton").addEventListener("click", function() {
+      document.getElementById("text").innerHTML = "Hello World";
+    });
+  </script>
 </body>
 </html>

@@ -1,3 +1,3 @@
 document.getElementById("myButton").addEventListener("click", function() {
-    document.getElementById("text").innerHTML = "Hello World";
-  });
+  document.getElementById("text").innerHTML = "Hello World";
+});
